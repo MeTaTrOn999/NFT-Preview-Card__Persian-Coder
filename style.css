@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* font-family: 'Outfit', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 368px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: .7rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 15px 15px 80px -25px rgba(0, 0, 0, 0.15);
+}
+
+.image {
+    width: 328px;
+    max-height: 560px;
+    margin: 20px 20px 0 20px ;
+    border-radius: .7rem;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: .7rem;
+}
+
+.description {
+    margin: 20px 20px;
+}
+
+.title h2 {
+    font-weight: 600;
+    color: white;
+}
+
+.paragraph {
+    margin-top: 15px;
+}
+
+.paragraph p {
+    font-size: 20px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.price-days {
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+}
+
+.price-text {
+    padding-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+}
+
+.days-text {
+    width: 90px;
+    color: hsl(215, 51%, 70%);
+}
+
+.days-icon {
+    margin-right: 5px;
+}
+
+.down {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.down-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.down-p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+}
+
+.down p span {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        max-width: 440px;
+        max-height: 670px;
+    }
+
+    .image {
+        width: 400px;
+        max-height: 630px;
+    }
+
+    .price {
+        padding-right: 160px;
+    }
+}
