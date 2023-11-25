@@ -40,7 +40,7 @@ body {
 .image {
     width: 328px;
     max-height: 560px;
-    margin: 20px 20px 0 20px ;
+    margin: 20px 20px 0 20px;
     border-radius: .7rem;
     position: relative;
 }
@@ -159,4 +159,25 @@ body {
     .price {
         padding-right: 160px;
     }
+}
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: inline;
+    top: 0;
+    position: fixed;
+    color: red;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
 }
